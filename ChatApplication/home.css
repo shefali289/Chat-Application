@@ -1,0 +1,104 @@
+body
+{
+    color: #999999;
+}
+
+#main
+{
+    width: 390px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+
+#main form
+{
+    color: #ffffff;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    padding: 30px;
+}
+
+.output
+{
+    background-color: #f0f0f0;
+    box-shadow: 0px 1px 1px #000;
+    height: 250px;
+    margin-bottom: 20px;
+    overflow: scroll;
+}
+
+input[type="text"]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #000000;
+}
+
+textarea
+{
+    background-color: #dcdcdc;
+    width: 350px;
+}
+
+#main button
+{
+    font-size: 16px;
+    font-weight: bold;
+    background: #00cb82;
+    border: none;
+}
+
+#main button:hover, #main button:focus
+{
+    background: #00b073 !important;
+    outline: none;
+}
+
+.form-header
+{
+    padding: 20px 30px 10px;
+    border-bottom: 1px solid #eeeeee;
+    background-color: #00cb82;
+    color: #ffffff;
+}
+
+input[type="submit"]
+{
+    margin-left: 90px;
+    margin-top: -20px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ffffff;
+    border: none;
+    color: #00cb82;
+    border-radius: 4px;
+    height: 40px;
+    width: 90px;
+}
+
+input[type="submit"]:hover, input[type="submit"]:focus
+{
+    background: #00b073 !important;
+    color: #ffffff;
+    outline: none;
+}
+
+.form-header h1
+{
+    margin-left: 70px;
+}
+
+#msgbox
+{
+    color: #999999;
+    border-radius: 3px;
+    margin-bottom: 15px;
+    background: #f0f0f0;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+    padding: 30px;
+}
